@@ -1,6 +1,6 @@
 #Makefile
 
-VPATH=main
+VPATH=src/main
 
 main.o: main.cpp
 	g++ $< -o $@
